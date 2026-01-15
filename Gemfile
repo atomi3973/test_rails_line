@@ -60,5 +60,10 @@ gem "tailwindcss-rails"
 gem "tailwindcss-ruby", "3.4.17"
 
 gem 'devise' 
+
+#lineログイン
 gem 'omniauth-line'
 gem 'omniauth-rails_csrf_protection'
+
+# Messagina API
+gem 'line-bot-api'
