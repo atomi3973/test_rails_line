@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   }
   
   root 'home#index' # ここを追加
+  post '/callback', to: 'line_bot#callback'
 end
